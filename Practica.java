@@ -55,8 +55,11 @@ public class Practica {
             for (char c: pass.toCharArray()){
                     if(i==1&&c=='a'||i==1&&c=='b'||i==3&&c=='a'||i==3&&c=='b'||i==2&&c=='c'||i==9&&c=='c') {
                         check = true;
-                    }
                         i++;
+                    }
+                    else {
+                        i++;
+                    }
             }
             System.out.println("Tú contraseña: "+pass + " es "+check +" para la parte 2 del ejercicio");
         }
